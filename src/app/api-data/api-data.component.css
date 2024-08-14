@@ -1,0 +1,48 @@
+.api-data-container {
+  padding: 1.5rem;
+  background-color: #1e293b;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  margin: 3rem auto;
+  color: #e2e8f0;
+}
+
+.api-data-container h2 {
+  color: #fbbf24;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.api-data-container ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+.api-data-container .post-item {
+  background-color: #334155;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.api-data-container .post-item:hover {
+  background-color: #475569;
+  transform: translateY(-5px);
+}
+
+.api-data-container .post-item h3 {
+  color: #fbbf24;
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+}
+
+.api-data-container .post-item p {
+  color: #cbd5e1;
+  font-size: 1.1rem;
+  margin: 0;
+}
